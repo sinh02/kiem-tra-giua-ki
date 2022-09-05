@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@font-face {
+  font-family: 'Reey';
+  src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Open';
+  src: url(../font/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#background {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-color: black;
+}
+
+header img {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+header .right {
+  margin-top: 1rem;
+}
+
+header .right ul {
+  padding: 0;
+  float: right;
+  border: #e1b838 2px solid;
+  text-align: center;
+  font-size: 1.6vw;
+}
+
+header .right ul li {
+  display: inline;
+}
+
+header .right ul li a {
+  color: #e1b838;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+header .right ul li a:hover {
+  background-color: #e1b838;
+  color: black;
+}
+
+.banner {
+  height: 30vw;
+  position: relative;
+}
+
+.banner .content {
+  margin: 0px auto;
+  margin-top: 20%;
+  text-transform: uppercase;
+  color: #e1b838;
+  width: 60%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner .content .content-table {
+  margin: 0px auto;
+  border: 2px solid #e1b838;
+}
+
+.banner .content .content-table th {
+  font-size: 2vw;
+}
+
+.banner .content .content-table td {
+  font-size: 1.8vw;
+}
+
+.banner .content .background {
+  background-color: #e1b838;
+}
+
+.banner h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 2vw;
+}
+
+.banner .icon {
+  text-align: center;
+  color: #e1b838;
+  position: absolute;
+  left: 44%;
+  bottom: 7px;
+}
+
+.banner .icon .fa-circle {
+  margin: 1vw 0.3vw;
+}
+
+.insert {
+  height: 2rem;
+  background-color: #262626;
+}
+
+.insert__big {
+  height: 40px;
+}
+
+.menu h2 {
+  text-align: center;
+  text-shadow: 0px 5px 4px black;
+}
+
+.menu .row {
+  padding: 1vh 0;
+}
+
+.menu .row table {
+  border: #e1b838 solid 2px;
+  margin: 0px auto;
+  font-weight: bold;
+}
+
+.menu .row table th {
+  padding: 5px 10px;
+  font-size: 1.9vw;
+  text-transform: uppercase;
+}
+
+.menu .row table td {
+  padding: 5px 10px;
+  font-size: 1.3vw;
+  text-transform: capitalize;
+  color: white;
+}
+
+.menu .row table .right {
+  text-align: right;
+}
+
+.menu .row table .background {
+  background-color: #e1b838;
+}
+
+.group {
+  padding-right: 10;
+  width: 100%;
+  position: relative;
+}
+
+.group .right {
+  float: right;
+  padding-right: 5vw;
+}
+
+.group .right .content {
+  color: #e1b838;
+  margin: 0.5rem 2rem 0 0;
+  text-align: right;
+}
+
+.group .right .content p {
+  margin-bottom: 0;
+  font-size: 4vw;
+}
+
+.group .right .content button {
+  background: #e1b838;
+  margin: 10px 0 0 0;
+  padding: 1px 8px;
+  border: none;
+  font-size: 1.5vw;
+}
+
+.group .right .logo {
+  margin: 2rem 0px;
+  float: right;
+  width: 10vw;
+  position: absolute;
+  right: 7vw;
+  bottom: 3vw;
+}
+
+.group .right .title {
+  color: #e1b838;
+  text-transform: capitalize;
+  font-size: 2vw;
+  position: absolute;
+  right: 7vw;
+  bottom: 1vw;
+  -webkit-box-shadow: 2 0 2 black;
+          box-shadow: 2 0 2 black;
+}
+
+.group-two .content-top {
+  padding: 5vw 5px;
+}
+
+.group-two .content-top .left table th {
+  color: black;
+}
+
+.group-two .content-top .left table tr {
+  text-align: center;
+}
+
+.group-two .content-top .right {
+  color: white;
+  padding-right: 5vw;
+}
+
+.group-two .content-top .right span {
+  font-size: 1.8vw;
+}
+
+.group-two .content__bottom {
+  position: relative;
+  width: 100%;
+  height: 48vw;
+}
+
+.group-two .content__bottom-one {
+  position: absolute;
+  width: 65% !important;
+  top: 0;
+  z-index: 2;
+}
+
+.group-two .content__bottom-two {
+  position: absolute;
+  width: 35% !important;
+  height: 90%;
+  bottom: -5vw;
+  right: 90px;
+  z-index: 2;
+}
+
+.group-two .content__bottom-three {
+  position: absolute;
+  width: 22% !important;
+  top: -4vw;
+  right: 50px;
+}
+
+.group-two .content__bottom .box__black {
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+  height: 120px;
+  background: #262626;
+  z-index: 1;
+}
+
+.card {
+  position: relative;
+}
+
+.card .image {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.card .table {
+  position: absolute;
+  width: 45%;
+  left: 50%;
+  bottom: 30%;
+}
+
+.card-two {
+  padding-top: 20px;
+}
+
+.card-two table td {
+  font-family: Reey;
+}
+
+.card-two .col-7 {
+  position: relative;
+}
+
+.card-two .col-7 p {
+  margin-bottom: 0;
+  font-size: 2vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+footer {
+  text-align: center;
+  background-image: url(../images/background3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 8vw;
+}
+
+footer img {
+  width: 13vw;
+}
+
+footer .title {
+  color: #e1b838;
+  font-size: 2vw;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+
+footer .thumbnail {
+  color: white;
+  font-size: 2vw;
+  text-transform: capitalize;
+  font-family: Reey;
+}
+
+footer .thumbnail table th {
+  background-color: #e1b838;
+  color: #262626;
+}
+
+footer .thumbnail table td {
+  text-transform: capitalize;
+}
+
+footer .thumbnail p {
+  font-family: 'Open Sans';
+}
+
+footer .bottom .title {
+  color: white;
+  text-align: left;
+}
+
+footer .bottom .title .title-content {
+  text-shadow: 0px 6px 0px black;
+}
+
+footer .bottom .image__bottom {
+  display: inline-block;
+  position: relative;
+}
+
+footer .bottom .image__bottom-one {
+  position: absolute;
+  bottom: 4vh;
+  right: 25vw;
+}
+
+footer .bottom .image__bottom-two {
+  position: absolute;
+  bottom: 4vh;
+  right: 22vw;
+}
+
+footer .bottom .image__bottom-three {
+  position: absolute;
+  bottom: 4vh;
+  right: 19vw;
+}
+
+footer .bottom .image__bottom-four {
+  position: absolute;
+  bottom: 4vh;
+  right: 16vw;
+}
+
+footer .bottom .image__bottom p {
+  position: absolute;
+  font-size: 1.8vw;
+  color: #e1b838;
+  bottom: 1.7vh;
+  right: 4vw;
+}
+/*# sourceMappingURL=style.css.map */
